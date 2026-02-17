@@ -5,7 +5,7 @@ import numpy as np
 import plotly.graph_objects as go
 
 st.set_page_config(
-    page_title="RetainIQ · Churn Intelligence",
+    page_title="RetainIQ · Customer Retention Analytics",
     page_icon="🔮",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -131,7 +131,7 @@ st.markdown("""
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown('<div class="s-logo">🔮 RetainIQ</div><div class="s-tag">Churn Intelligence</div>', unsafe_allow_html=True)
+    st.markdown('<div class="s-logo">🔮 RetainIQ</div><div class="s-tag">Customer Retention Analytics</div>', unsafe_allow_html=True)
 
     st.markdown('<div class="sec-lbl">👤 Demographics</div>', unsafe_allow_html=True)
     gender         = st.selectbox("Gender",["Female","Male"])
